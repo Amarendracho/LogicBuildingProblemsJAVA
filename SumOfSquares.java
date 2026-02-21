@@ -30,11 +30,19 @@ public class SumOfSquares {
 		}
 		return sum;
 	}
+	
+	//Using Mathematical Formula - n(n+1)(2n+1) / 6
+	static int sumSquare(int n) {
+		return (n * (n + 1) *
+				(2 * n + 1)) / 6; 
+	}
 
 	public static void main(String[] args) {
 		System.out.println(sumOfSqr(8));
 		
 		System.out.println(sumSqr(8));
+		
+		System.out.println(sumSquare(8));
 
 	}
 }
