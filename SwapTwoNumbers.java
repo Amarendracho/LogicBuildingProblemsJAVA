@@ -10,20 +10,30 @@ package basics;
 	Output: a = 10, b = 10 */
 
 public class SwapTwoNumbers {
-	
+
 	// O(1) Time and O(1) Space
 	static void swap(int a, int b) {
-		System.out.println("a = "+ a +", b = "+ b);
-		
+		System.out.println("a = " + a + ", b = " + b);
+
 		int temp = a;
 		a = b;
 		b = temp;
-		
-		System.out.println("a = "+ a +", b = "+ b);
+
+		System.out.println("a = " + a + ", b = " + b);
+	}
+
+	// Using Arithmetic Operators
+	static void swapByPlus(int a, int b) {
+		System.out.println("a = " + a + ", b = " + b);
+
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		System.out.println("a = " + a + ", b = " + b);
 	}
 
 	public static void main(String[] args) {
-		swap(20,0);
+		swap(20, 0);
+		swapByPlus(2,3);
 	}
 }
-   
