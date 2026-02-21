@@ -22,7 +22,7 @@ public class SwapTwoNumbers {
 		System.out.println("a = " + a + ", b = " + b);
 	}
 
-	// Using Arithmetic Operators
+	// Using Arithmetic Operators  O(1) Time and O(1) Space
 	static void swapByPlus(int a, int b) {
 		System.out.println("a = " + a + ", b = " + b);
 
@@ -31,6 +31,8 @@ public class SwapTwoNumbers {
 		a = a - b;
 		System.out.println("a = " + a + ", b = " + b);
 	}
+	
+	// Using Bitwise XOR  O(1) Time and O(1) Space
 
 	public static void main(String[] args) {
 		swap(20, 0);
