@@ -31,7 +31,7 @@ public class EvenOddCheck {
 		// Approach 1
 		System.out.println(evenOddCheck(44));
 		
-		// Approach2 
+		// Approach 2 
 		int number = 15;
 		if(isEven(number) == true) {
 			System.out.println("true");
