@@ -31,7 +31,7 @@ public class SumOfSquares {
 		return sum;
 	}
 	
-	//Using Mathematical Formula - n(n+1)(2n+1) / 6
+	//Using Mathematical Formula - n(n+1)(2n+1) / 6 =  O(1) Time and O(1) Space
 	static int sumSquare(int n) {
 		return (n * (n + 1) *
 				(2 * n + 1)) / 6; 
