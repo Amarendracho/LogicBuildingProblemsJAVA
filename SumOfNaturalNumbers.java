@@ -1,6 +1,5 @@
 package basics;
 
-
 /*	Input: n = 3
 	Output: 6
 	Explanation: 1 + 2 + 3 = 6
@@ -10,7 +9,17 @@ package basics;
 	Explanation:  1 + 2 + 3 + 4 + 5 = 15*/
 
 public class SumOfNaturalNumbers {
-	
-	
+
+	public static int sumOfNums(int n) {
+
+		int sum = 0;
+		for (int i = 0; i <= n; i++) {
+			sum += i;
+		}
+		return sum;
+	}
+	public static void main(String[] args) {
+		
+	}
 
 }
