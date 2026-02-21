@@ -22,7 +22,7 @@ public class MultiplicationTable {
 	}
 
 	public static void main(String[] args) {
-		mulTable(5);
+		mulTable(2);
 	}
 
 }
