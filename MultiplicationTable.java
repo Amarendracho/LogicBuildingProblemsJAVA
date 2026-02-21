@@ -15,7 +15,7 @@ package basics;
 
 public class MultiplicationTable {
 
-	// Iterative Approach
+	// Iterative Approach T - O(1) S - O(1)
 	public static void mulTable(int n) {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(n + " * " + i + " = " + n * i);
