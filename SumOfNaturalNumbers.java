@@ -9,7 +9,8 @@ package basics;
 	Explanation:  1 + 2 + 3 + 4 + 5 = 15*/
 
 public class SumOfNaturalNumbers {
-
+	
+	// Using Loop - O(n) Time and O(1) Space
 	public static int sumOfNums(int n) {
 
 		int sum = 0;
@@ -19,7 +20,7 @@ public class SumOfNaturalNumbers {
 		return sum;
 	} 
 
-	// approach 2 SumOfNnatural formula
+	// approach 2 formula SumOfNnatural 
 	static int sumOfN(int n) {
 		return (n * (n + 1) / 2);
 	}
