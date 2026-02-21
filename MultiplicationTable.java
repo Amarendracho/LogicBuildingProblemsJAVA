@@ -13,9 +13,16 @@ package basics;
 	5 * 9 = 45
 	5 * 10 = 50*/
 
-
 public class MultiplicationTable {
-	
-	
+
+	public static void mulTable(int n) {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(n + " * " + i + " = " + n * i);
+		}
+	}
+
+	public static void main(String[] args) {
+		mulTable(5);
+	}
 
 }
