@@ -21,8 +21,20 @@ public class SumOfSquares {
 		return sum;
 	}
 
+	// Using one variable Adding One By One - O(n) Time and O(1) Space
+	public static int sumSqr(int n) {
+		int sum = 0;
+		
+		for(int i = 1; i <=n ; i++) {
+			sum += (i * i);
+		}
+		return sum;
+	}
+
 	public static void main(String[] args) {
 		System.out.println(sumOfSqr(8));
+		
+		System.out.println(sumSqr(8));
 
 	}
 }
