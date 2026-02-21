@@ -17,9 +17,9 @@ public class SumOfNaturalNumbers {
 			sum += i;
 		}
 		return sum;
-	}
+	} 
 
-	// approach 2
+	// approach 2 SumOfNnatural formula
 	static int sumOfN(int n) {
 		return (n * (n + 1) / 2);
 	}
@@ -28,7 +28,8 @@ public class SumOfNaturalNumbers {
 		int n = 5;
 		System.out.println(sumOfNums(n));
 		
-		//
+		// approach 2 
+		System.out.println(sumOfN(4));
 	}
 
 }
