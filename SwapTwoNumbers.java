@@ -10,7 +10,8 @@ package basics;
 	Output: a = 10, b = 10 */
 
 public class SwapTwoNumbers {
-
+	
+	// O(1) Time and O(1) Space
 	static void swap(int a, int b) {
 		System.out.println("a = "+ a +", b = "+ b);
 		
