@@ -26,7 +26,7 @@ public class SumOfNaturalNumbers {
 	}
 
 	// Approach 3 Using Recursion -O(n) and O(n) Space
-	public int sumOfNNums(int n) {
+	public static int sumOfNNums(int n) {
 
 		// base condition
 		if (n == 1)
@@ -41,6 +41,11 @@ public class SumOfNaturalNumbers {
 
 		// approach 2
 		System.out.println(sumOfN(4));
+		
+		//approach 3
+		System.out.println(sumOfNNums(5));
+		
+		
 	}
 
 }
