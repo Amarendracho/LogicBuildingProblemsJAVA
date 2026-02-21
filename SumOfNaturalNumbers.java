@@ -26,14 +26,14 @@ public class SumOfNaturalNumbers {
 	}
 
 	// Approach 3 Using Recursion -O(n) and O(n) Space
-	public int sumOfNums(int n) {
+	public int sumOfNNums(int n) {
 
 		// base condition
 		if (n == 1)
 			return 1;
 
-		return n + sumOfNums(n - 1);
-	}
+		return n + sumOfNNums(n - 1);
+	} 
 
 	public static void main(String[] args) {
 		int n = 5;
