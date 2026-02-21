@@ -16,8 +16,26 @@ public class EvenOddCheck {
 
 	}
 
+	static boolean isEven(int n) {
+		int rem = n % 2;
+
+		if (rem == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println(evenOddCheck(44));
+		
+		int number = 15;
+		if(isEven(number) == true) {
+			System.out.println("true");
+		}
+		else {
+			System.out.println("false");
+		}
 	}
 
 }
