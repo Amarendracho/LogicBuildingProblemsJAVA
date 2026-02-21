@@ -26,6 +26,9 @@ public class EvenOddCheck {
 			return false;
 		}
 	}
+	
+	//Using Bitwise AND Operator - O(1) Time and O(1) Space
+	public static 
 
 	public static void main(String[] args) {
 		// Approach 1
