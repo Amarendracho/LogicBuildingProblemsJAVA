@@ -5,7 +5,7 @@ Java logic building problems level wise
 1. EvenOddCheck
 2. Multiplicationtable
 3. SumOfNaturalNumbers
-
+4. SumOfSquares
 
 
 
