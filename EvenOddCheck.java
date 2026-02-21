@@ -28,7 +28,14 @@ public class EvenOddCheck {
 	}
 	
 	//Using Bitwise AND Operator - O(1) Time and O(1) Space
-	public static 
+	public static boolean isEvenCheck(int n) {
+		if((n & 1) == 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 
 	public static void main(String[] args) {
 		// Approach 1
@@ -42,6 +49,13 @@ public class EvenOddCheck {
 		else {
 			System.out.println("false");
 		}
+		
+		// Approach 3
+        int n = 114;
+        if (isEvenCheck(n) == true)
+            System.out.print("true");
+        else
+            System.out.print("false");
 	}
 
 }
