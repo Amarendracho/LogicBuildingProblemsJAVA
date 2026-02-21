@@ -20,10 +20,12 @@ public class SumOfNaturalNumbers {
 		return sum;
 	} 
 
-	// approach 2 formula SumOfNnatural 
+	// approach 2 formula SumOfNnatural O(1) Time and O(1) Space
 	static int sumOfN(int n) {
 		return (n * (n + 1) / 2);
 	}
+	
+	//Approach 3 Using Recursion -O(n) and O(n) Space
 
 	public static void main(String[] args) {
 		int n = 5;
