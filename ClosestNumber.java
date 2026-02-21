@@ -11,8 +11,8 @@ Explanation: Both -12 and -18 are closest to -15, but -18 has the maximum absolu
 public class ClosestNumber {
 
 	static void closeNum(int n, int m) {
-		
-		
-		
+
+		System.out.println("Input: " + "n = " + n + ", m = " + m);
+
 	}
 }
