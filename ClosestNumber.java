@@ -14,5 +14,14 @@ public class ClosestNumber {
 
 		System.out.println("Input: " + "n = " + n + ", m = " + m);
 
+		for (int i = n; i > m; i--) {
+			if(i % m == 0) {
+				System.out.println("output: " + i);
+				return;
+			}
+		}
+	}
+	public static void main(String[] args) {
+		closeNum(13,4);
 	}
 }
