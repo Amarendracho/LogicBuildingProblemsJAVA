@@ -9,7 +9,7 @@ package basics;
 	Explanation:  1 + 2 + 3 + 4 + 5 = 15*/
 
 public class SumOfNaturalNumbers {
-	
+
 	// Using Loop - O(n) Time and O(1) Space
 	public static int sumOfNums(int n) {
 
@@ -18,20 +18,28 @@ public class SumOfNaturalNumbers {
 			sum += i;
 		}
 		return sum;
-	} 
+	}
 
 	// approach 2 formula SumOfNnatural O(1) Time and O(1) Space
 	static int sumOfN(int n) {
 		return (n * (n + 1) / 2);
 	}
-	
-	//Approach 3 Using Recursion -O(n) and O(n) Space
+
+	// Approach 3 Using Recursion -O(n) and O(n) Space
+	public int sumOfNums(int n) {
+
+		// base condition
+		if (n == 1)
+			return 1;
+
+		return n + sumOfNums(n - 1);
+	}
 
 	public static void main(String[] args) {
 		int n = 5;
 		System.out.println(sumOfNums(n));
-		
-		// approach 2 
+
+		// approach 2
 		System.out.println(sumOfN(4));
 	}
 
