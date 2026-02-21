@@ -2,7 +2,7 @@
 Java logic building problems level wise 
 
 # Basic Problems
-EvenOddCheck
+EvenOddCheck /n
 Multiplicationtable
 SumOfNaturalNumbers
 
