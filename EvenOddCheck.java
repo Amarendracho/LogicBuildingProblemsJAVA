@@ -9,7 +9,7 @@ package basics;
 	Explanation: 44 % 2 = 0, so 44 is even.*/
 
 public class EvenOddCheck {
-	
+	//Approach 1
 	static boolean evenOddCheck(int n) {
 		if (n % 2 == 1)
 			return false;
@@ -28,6 +28,7 @@ public class EvenOddCheck {
 	}
 
 	public static void main(String[] args) {
+		// Approach 1
 		System.out.println(evenOddCheck(44));
 		
 		// Approach2 
