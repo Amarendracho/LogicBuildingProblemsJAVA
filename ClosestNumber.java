@@ -2,7 +2,7 @@ package basics;
 
 /*Input: n = 13, m = 4
 Output: 12
-Explanation: 12 is the closest to 13, divisible by 4.
+Explanation: 12 is the closest to/. 13, divisible by 4.
 
 Input: n = -15, m = 6
 Output: -18
@@ -22,6 +22,12 @@ public class ClosestNumber {
 		}
 	}
 	public static void main(String[] args) {
-		closeNum(13,4);
+		closeNum(25,4);
 	}
 }
+
+
+		
+		
+		
+		
