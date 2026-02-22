@@ -8,5 +8,6 @@ Java logic building problems level wise
 4. SumOfSquares
 5. SwapNumbers
 6. ClosestNumber
+7. 
 
 
