@@ -6,7 +6,7 @@ Java logic building problems level wise
 2. Multiplicationtable
 3. SumOfNaturalNumbers
 4. SumOfSquares
-5. SwapNumbers a
+5. SwapNumbers
    
 
 
