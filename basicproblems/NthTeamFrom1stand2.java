@@ -24,4 +24,9 @@ public class NthTeamFrom1stand2 {
 		return nthElement;
 	}
 
+	public static void main(String[] args) {
+		int a1 = 1, a2 = 3, n = 10;
+		System.out.println(nthTerm(a1, a2, n));
+
+	}
 }
