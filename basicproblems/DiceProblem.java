@@ -14,6 +14,7 @@ package basicproblems;
 
 public class DiceProblem {
 
+	// [Naive Approach] Using if-else Statement
 	static int dicePick(int n) {
 		int res;
 
@@ -31,6 +32,9 @@ public class DiceProblem {
 			res = 1;
 		}
 		return res;
+	}
+	public static void main(String[] args) {
+		System.out.println(dicePick(6));
 	}
 
 }
