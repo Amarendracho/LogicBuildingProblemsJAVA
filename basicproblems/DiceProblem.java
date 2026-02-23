@@ -14,7 +14,7 @@ package basicproblems;
 
 public class DiceProblem {
 
-	// [Naive Approach] Using if-else Statement
+	// [Naive Approach] Using if-else Statement - O(1) O(1) 
 	static int dicePick(int n) {
 		int res;
 
@@ -33,8 +33,15 @@ public class DiceProblem {
 		}
 		return res;
 	}
+	
+	// [Expected Approach] Using Sum of Two Sides -  O(1) O(1) 
+	static int roleDice(int n) {
+		return 7 - n;
+	}
+	
 	public static void main(String[] args) {
-		System.out.println(dicePick(6));
+		System.out.println(dicePick(2));
+		System.out.println(roleDice(2));
 	}
 
 }
