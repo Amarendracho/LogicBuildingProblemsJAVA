@@ -20,7 +20,7 @@ public class NthTeamFrom1stand2 {
 		int nthElement = a1, d = a2 - a1;
 		for (int i = 1; i < n; i++) {
 			nthElement += d;
-		}
+		} 
 		return nthElement;
 	}
 
