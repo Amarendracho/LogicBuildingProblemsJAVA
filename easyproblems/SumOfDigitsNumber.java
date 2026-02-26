@@ -34,7 +34,7 @@ public class SumOfDigitsNumber {
 
 	}
 
-	// String Conversion 
+	// String Conversion - Time Complexity: O(d) Auxiliary Space: O(d)
 	static int sumOfDigits(int n) {
 
 		String convert = Integer.toString(n);
