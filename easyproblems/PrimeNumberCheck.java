@@ -24,8 +24,23 @@ public class PrimeNumberCheck {
 		return true;
 	}
 
+	// Optimized - Time Complexity: O(√n) Auxiliary Space: O(1)
+	static boolean isPrime(int n) {
+
+		if (n <= 1)
+			return false;
+
+		for (int i = 2; i * i <= n; i++) {
+			if (n % i == 0)
+				return false;
+		}
+		return true;
+	}
+
 	public static void main(String[] args) {
 		System.out.println(primrCheck(1));
+		
+		System.out.println(isPrime(13));
 	}
 
 }
