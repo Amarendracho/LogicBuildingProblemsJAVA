@@ -9,12 +9,14 @@ package easyproblems;
 	Explanation: The sum of its digits are: 1 + 2 = 3*/
 
 public class SumOfDigitsNumber {
+	
+	//Digit Extraction - O(log10n) Time and O(1) Space
 	public static int sumOfNumbers(int num) {
 
 		int sum = 0;
 		while (num > 0) {
 			int remainder = num % 10;
-			sum += remainder;
+			sum += remainder; 
 			num /= 10;
 		}
 		return sum;
