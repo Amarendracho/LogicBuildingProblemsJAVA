@@ -9,20 +9,34 @@ package easyproblems;
 	Explanation: The sum of its digits are: 1 + 2 = 3*/
 
 public class SumOfDigitsNumber {
-	
-	//Digit Extraction - O(log10n) Time and O(1) Space
+
+	// Digit Extraction - O(log10n) Time and O(1) Space
 	public static int sumOfNumbers(int num) {
 
 		int sum = 0;
 		while (num > 0) {
 			int remainder = num % 10;
-			sum += remainder; 
+			sum += remainder;
 			num /= 10;
 		}
 		return sum;
 	}
+
+	// Using Recursion - O(log10n) Time and O(log10n) Space
+	static int sumOfNums(int n) {
+
+		// base case
+		if (n == 0)
+			return 0;
+
+		return (n % 10) + sumOfNums(n / 10);
+
+	}
+
 	public static void main(String[] args) {
-		
+
 		System.out.println(sumOfNumbers(6756));
+		
+		System.out.println(sumOfNums(129));
 	}
 }
