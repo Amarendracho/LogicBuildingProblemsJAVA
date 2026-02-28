@@ -1,4 +1,4 @@
 # Level of problems.
 
-Basic Problems
+1. Basic Problems
 Easy Problems
