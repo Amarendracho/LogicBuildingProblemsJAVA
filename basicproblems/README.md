@@ -9,7 +9,6 @@ Java logic building problems level wise
 5. SwapNumbers
 6. ClosestNumber
 7. DiceProblem
-8. frequ
 
 
 <<<<<<< HEAD
