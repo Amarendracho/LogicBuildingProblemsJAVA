@@ -10,7 +10,6 @@ Java logic building problems level wise
 6. ClosestNumber
 7. DiceProblem
 
-
 <<<<<<< HEAD
 (your version)
 =======
